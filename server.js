@@ -28,5 +28,5 @@ app.use("/api/v1", zeusRoutes);
 app.use(express.static(path.join(__dirname, "build")));
 
 app.listen(process.env.port, function () {
-  console.log(`Application running on port ${port}`);
+  console.log(`Application running on port`);
 });
