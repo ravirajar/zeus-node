@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 mongoose.connect(
-  "mongodb://localhost:27017/zeus-mobile",
+  "mongodb+srv://zeus-user:zeus@cluster0.8kyos.mongodb.net/test",
   { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false },
   (err, db) => {
     console.log(`DB Connection successful`);
