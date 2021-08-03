@@ -12,7 +12,9 @@
     "request": "^2.88.2",
     "web-vitals": "^1.0.1"
   },
-  "scripts": {},
+  "scripts": {
+    "start": "node server.js"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
