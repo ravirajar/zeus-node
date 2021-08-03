@@ -1,7 +1,6 @@
 {
   "name": "zues-mobile",
   "version": "0.1.0",
-  "private": true,
   "main": "server.js",
   "dependencies": {
     "axios": "^0.21.1",
@@ -13,9 +12,7 @@
     "request": "^2.88.2",
     "web-vitals": "^1.0.1"
   },
-  "scripts": {
-    "start": "npm server.js"
-  },
+  "scripts": {},
   "browserslist": {
     "production": [
       ">0.2%",
