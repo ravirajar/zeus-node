@@ -26,7 +26,7 @@ app.use("/api/v1", zeusRoutes);
 
 //Views are present inside build folder
 app.use(express.static(path.join(__dirname, "build")));
-const port = process.env.port || 3000;
-app.listen(port, "0.0.0.0", function () {
+const port = process.env.PORT || 3000;
+app.listen(port, function () {
   console.log(`Application running on port ${port}`);
 });
